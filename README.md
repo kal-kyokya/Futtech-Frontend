@@ -27,6 +27,15 @@ Through Futtech, I am building a future where African footballers no longer have
 ```
 $ sudo apt-get install git
 ```
+```
+$ sudo npm install
+```
+```
+$ sudo npm install sass
+```
+```
+$ sudo npm run dev
+```
 
 ## :blue_book: Author
 * **Jean-Paul KYOKYA** - [@kal-kyokya](https://github.com/kal-kyokya)
