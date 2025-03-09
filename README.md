@@ -1,6 +1,6 @@
 # 
 
-# :bulb: Futtech :bulb:
+# ⚽ Futtech ⚽
 
 Football is the most popular sport on Earth, uniting people across education, class, and race. It has the power to strengthen communities and inspire dreams. Africa must harness this power to uplift itself.
 Through Futtech, I am building a future where African footballers no longer have to leave home to maximize their potential—because the tools they need will be right here.
