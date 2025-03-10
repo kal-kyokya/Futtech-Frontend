@@ -10,7 +10,7 @@ const ListItem = ({ index }) => {
 
     return (
 	<div className='listItem'
-	     style={ {left: isHovered && index * 225 - 50 + index *  2.5} }
+	     style={{ transform: isHovered ? "scale(1.2)" : "scale(1)", zIndex: isHovered ? 10 : 1 }}
 	     onMouseEnter={ () => setIsHovered(true) }
 	     onMouseLeave={ () => setIsHovered(false) }
 	>
