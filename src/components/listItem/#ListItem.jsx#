@@ -1,0 +1,11 @@
+import './listItem.scss';
+
+const ListItem = () => {
+    return (
+	<div className='listItem'>
+	    <img src=''></img>
+	</div>
+    );
+}
+
+export default ListItem;

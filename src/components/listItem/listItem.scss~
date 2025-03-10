@@ -1,0 +1,6 @@
+.list {
+    height: 150px;
+    color: #028ECA;
+    margin-top: 10px;
+    background-color: white;
+}

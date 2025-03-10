@@ -1,8 +1,18 @@
 import './featured.scss';
 
-const Featured = () => {
+const Featured = ({ type }) => {
     return (
 	<div className='featured'>
+	    {type &&
+	     <div className='category'>
+		 <span>{ type === 'drone' ? 'Footages' : 'Analysis' }</span>
+		 <select name='type' id='type'>
+		     <option>Types</option>
+		     <option value='training'>Training</option>
+		     <option value='game'>Games</option>
+		 </select>
+	     </div>
+	    }
 	    <img src='../../../public/poa.JPEG'
 		 alt='The website owner alighting from a bus, wide smile on his face, looking straight at the photographer with his thumb up.'/>
 	    <div className='info'>
