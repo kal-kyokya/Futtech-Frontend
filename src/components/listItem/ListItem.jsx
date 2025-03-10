@@ -12,7 +12,8 @@ const ListItem = ({ index }) => {
 	<div className='listItem'
 	     style={ {left: isHovered && index * 225 - 50 + index *  2.5} }
 	     onMouseEnter={ () => setIsHovered(true) }
-	     onMouseLeave={ () => setIsHovered(false) }>
+	     onMouseLeave={ () => setIsHovered(false) }
+	>
 	    <img src='../../../public/congo.JPEG'
 		 alt='Website Owner proudly holding the Congolese flag'
 	    />
@@ -22,17 +23,17 @@ const ListItem = ({ index }) => {
 		    <AddIcon/>
 		    <ThumbUpOutlinedIcon/>
 		    <ThumbDownOutlinedIcon/>
-		    <div className='properties'>
-			<span>Duration</span>
-			<span>Location</span>
-			<span>Date</span>
-		    </div>
-		    <div className='description'>
-			Culture Week games in USIU-Africa on 14th February 2025, representing Congo DRC and have the chance to play in the finals.
-		    </div>
-		    <div className='type'>
-			Game
-		    </div>
+		</div>
+		<div className='properties'>
+		    <span>Duration</span>
+		    <span>Location</span>
+		    <span>Date</span>
+		</div>
+		<div className='description'>
+		    Culture Week games in USIU-Africa on 14th February 2025, representing Congo DRC and have the chance to play in the finals.
+		</div>
+		<div className='type'>
+		    Game
 		</div>
 	    </div>
 	</div>
