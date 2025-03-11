@@ -14,7 +14,7 @@ const ListItem = ({ index }) => {
 	    {!isHovered && <img src='../../../public/congo.JPEG'
 		 alt='Website Owner proudly holding the Congolese flag'
 	    />}
-	    {isHovered && <video src='../../../public/JP-CP.MOV' autoPlay={true} />}
+	    {isHovered && <video src='../../../public/JP-CP.MOV' autoPlay={true} loop />}
 	</div>
     );
 }
