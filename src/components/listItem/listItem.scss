@@ -1,6 +1,6 @@
 .listItem {
-    width: 245px;
-    height: 150px;
+    width: 295px;
+    height: 195px;
     margin-right: 3px;
     background-color: var(--main-color);
     overflow: hidden;
@@ -31,6 +31,11 @@
 
 	img {
 	    transform: scale(1.75);
+	}
+
+	video {
+	    transform: rotate(0.25turn) scale(1.65);
+	    object-fit: contain;
 	}
     }
 }
