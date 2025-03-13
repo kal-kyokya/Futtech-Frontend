@@ -61,7 +61,6 @@
 	background-color: grey;
 	height: 50px;
 	border-radius: 5px;
-	background: rgba(0, 0, 0, 0.5);
 
 	input {
 	    flex: 8;
