@@ -39,12 +39,14 @@ const Login = () => {
 		    <span className='text'>
 			New to Futtech? <b>Sign up now</b>.
 		    </span>
-		    <span className='small'>
-			<i>This page is protected by Google reCAPTCHA to ensure you're not a bot.</i>
-		    </span>
-		    <span className='small'>
-			<i><b>Learn more.</b></i>
-		    </span>
+		    <div className='captcha'>
+			<p className='small-1'>
+			    <i>This page is protected by Google reCAPTCHA to ensure you're not a bot.</i>
+			</p>
+			<p className='small-2'>
+			    <i>Learn more.</i>
+			</p>
+		    </div>
 		</form>
 	    </div>
 	</div>
